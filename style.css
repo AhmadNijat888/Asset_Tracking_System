@@ -179,7 +179,7 @@ h4 {
 .home {
     text-align: center;
     background: rgb(240, 248, 255);
-    padding: 90px 20px;
+    padding: 120px 20px;
 }
 
 .box {
@@ -439,6 +439,8 @@ th {
 }
 
 .footer-col {
+    display: flex;
+    flex-direction: column;
     flex: 1;
     min-width: 180px;
 }
